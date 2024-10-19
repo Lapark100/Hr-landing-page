@@ -2,7 +2,7 @@ import { InstagramIcon, Linkedin, LinkedinIcon, Mail, PhoneIncoming, Twitter, Tw
 
 export default function Footer() {
     return (
-        <footer className="h-[57rem] md:h-[500px] bg-black space-y-20 md:space-y-40 pt-6 md:pt-20 ">
+        <footer className="h-[59.5rem] md:h-[500px] bg-black space-y-20 md:space-y-40 pt-6 md:pt-20 ">
             <div className="container mx-auto max-w-sm md:max-w-6xl flex flex-col md:flex-row justify-between items-start space-y-5 md:space-y-0">
                 <div className="flex flex-col space-y-5 text-white">
                     <div className="text-2xl text-[#E0F2FF] font-semibold">HR</div>
@@ -78,7 +78,7 @@ export default function Footer() {
 
                 
             </div>
-            <div className=" container mx-auto max-w-md md:max-w-6xl flex justify-between items-center text-white">
+            <div className=" container mx-auto max-w-md md:max-w-6xl flex flex-col md:flex-row space-y-5 md:space-y-0 justify-between items-center text-white">
                     <p className="text-white text-xs md:text-base">© Copyright 2024 HR. All rights reserved</p>
                     <div className="flex space-x-6 text-xs md:text-base">
                     <div>
