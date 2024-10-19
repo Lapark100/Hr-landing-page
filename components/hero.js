@@ -5,7 +5,7 @@ import Link from "next/link";
 import { partnerLogos } from "@/lib/const";
 import Image from "next/image";
 
-export default function () {
+export default function Hero(){
   return (
     <>
       <section className="space-y-8 flex flex-col justify-center items-center mt-2 md:mt-16 container mx-auto max-w-sm md:max-w-6xl mb-10 md:mb-0">
@@ -57,7 +57,7 @@ export default function () {
                 src={logo}
                 width={logo.width || 75} // Adjust to your desired width
                 height={logo.height || 40} // Adjust to your desired height
-                alt={`Logo ${index + 1}`}
+                alt='hr partners logo'
                 className="object-contain"
                 key={index}
               />

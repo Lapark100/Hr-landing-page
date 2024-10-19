@@ -33,7 +33,7 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="hidden md:block md:w-1/2">
-          <Image src={dashImg} width={500} height={400} className="object-contain" />
+          <Image src={dashImg} width={500} height={400} className="object-contain" alt="hr about us"/>
         </div>
       </div>
 
@@ -44,7 +44,7 @@ export default function AboutUs() {
             <p>Empowering teams with innovative HR solutions to enhance productivity and organizational growth.</p>
           </div>
           <div className="flex-grow">
-            <Image src={hrImg} width={500} height={400} className="object-cover w-full h-full rounded-bl-lg rounded-br-lg" />
+            <Image src={hrImg} width={500} height={400} className="object-cover w-full h-full rounded-bl-lg rounded-br-lg" alt="hr-mission"/>
           </div>
         </div>
         <div className="flex flex-col rounded-lg bg-[#F0F4F8] max-w-sm md:max-w-xl">
@@ -53,7 +53,7 @@ export default function AboutUs() {
             <p>Delivering tailored HR solutions that drive engagement, productivity, and sustainable growth.</p>
           </div>
           <div className="flex-grow">
-            <Image src={hrEmployee} width={500} height={400} className="object-cover w-full h-full rounded-bl-lg rounded-br-lg" />
+            <Image src={hrEmployee} width={500} height={400} className="object-cover w-full h-full rounded-bl-lg rounded-br-lg" alt="hr vision"/>
           </div>
         </div>
       </div>
